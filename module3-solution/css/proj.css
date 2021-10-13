@@ -61,6 +61,7 @@ body{
 .but:focus{
     color:white;
     border:3px solid white;
+    background-color:rgb(146, 145, 145);
 }
 .guide{
     text-decoration: underline blue solid;
