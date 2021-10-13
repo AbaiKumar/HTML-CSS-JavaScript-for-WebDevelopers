@@ -47,6 +47,7 @@ body{
     border:2px solid black;
     font-size:28px;
     margin-left:50px;
+    background-color: rgb(146, 145, 145);
 }
 .divider{
     border-bottom:2px solid black;
