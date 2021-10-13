@@ -4,27 +4,31 @@
         <title>Assignment Solution for Module 3</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/proj.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="proj.css">
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg nav-tit" id="dir">
-            <span class="navbar-brand w-50" id="nav-title">Food,LLC</span>
-            <div class="w-25">
-              <button class="but hide navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                <span class="fa fa-bars"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav hide mr-auto">
-                <li class="p-1 divider nav-item">Chicken</li>
-                <li class="p-1 divider nav-item">Beef</li>
-                <li class="p-1 divider nav-item">Sushi</li>
-              </ul>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-md" id="dir">
+        <span class="navbar-brand" id="nav-title">Food,LLC</span>
+        <button class="navbar-toggler hide but" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="fa fa-bars"></span>
+        </button>  
+      </nav>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav hide">
+          <li class="nav-item divider">
+            <span class="nav-link" href="#">Chicken</span>
+          </li>
+          <li class="nav-item divider limit">
+            <span class="nav-link" href="#">Beef</span>
+          </li>
+          <li class="nav-item divider">
+            <span class="nav-link" href="#">Sushi</span>
+          </li>    
+        </ul>
+      </div>
         <span class="text-center" id="title">Our Menu</span>
         <div class="container-fluid bg">
             <div class="row">
