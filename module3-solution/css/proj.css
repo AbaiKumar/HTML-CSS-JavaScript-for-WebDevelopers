@@ -5,14 +5,14 @@
 .d-block{
     border:3px solid black;
 }
-li{
+.nav-item{
     border: 1px solid black;
     margin-top:-1px;
 }
 .title{
     font-family: "Berlin Sans FB";
 }
-.my-2{
+.idbg{
     background-color: rgba(0,0,0,0.2);
     width: 90%;
 }
